@@ -1,4 +1,6 @@
 
+/* font-inter  */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
@@ -10,6 +12,21 @@
   font-style: normal;
 }
 
+/* font-notoo-serif  */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
 /* shared style  */
 .display-flex{
     display: flex;
@@ -19,6 +36,10 @@
 }
 .dark-02{
     color:  #8987A1;
+}
+
+.dark-lite{
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .margin{
@@ -32,6 +53,8 @@
 
 .navbar{
    justify-content: space-between; 
+   width: 1140px;
+   margin: 30px auto;
 }
 
 .nav-element{
@@ -47,4 +70,38 @@
 .item a{
     text-decoration: none;
 
+}
+
+/* main section  */
+/* section -- flower  */
+
+.flower{
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flower-content{
+    /* padding-top: 200px; */
+    width: 570px;
+    height: 300px;
+}
+
+.flower-content h1{
+    font-size: 4rem;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.flower-content-part{
+    color: #E95A08;
+}
+
+.flower-para{
+    font-size: 1.3rem;
+}
+
+.flower-img{
+    width: 570px;
+    height: 350px;
 }
