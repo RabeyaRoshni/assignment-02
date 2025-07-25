@@ -264,7 +264,7 @@
     gap: 20px;
     justify-content: center;
     width: 1140px;
-    margin: 0 auto;
+    margin: 30px auto 0 auto;
 }
 .offer-section {
   display: flex;
@@ -328,13 +328,38 @@
   margin-bottom: 10px;
 }
 
-.card-content button {
-  background-color: #ff6600;
+ .offer-right a {
+  font-size: 1.3rem;
   color: white;
-  border: none;
+  font-weight: 500;
   padding: 8px 15px;
   border-radius: 4px;
-  cursor: pointer;
+  
+}  
+ .offer-left a {
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  
+  padding: 8px 15px;
+  border-radius: 4px;
+  
+}  
+
+ .offer-right p{
+    font-size: 2.3rem;
+ } 
+ .offer-left p{
+    font-size: 1rem;
+ } 
+
+/* .card-large{
+    font-size: 2.8rem;
+} */
+
+.card-content a:hover{
+    font-weight: bolder;
+    cursor: pointer;
 }
 
 
@@ -385,5 +410,36 @@
   cursor: pointer;
 }
 
+
+/* footer section   */
+.foot{
+    width: 1120px;
+  height: 250px;
+  margin: 130px auto 80px auto;
+  gap: 15px;
+}
+.first{
+    width: 35%;
+}
+.first p{
+    width: 80%;
+    font-size: 1.3rem;
+}
+.second{
+    gap: 35px;
+}
+.second li{
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+
+}
+.third{
+    margin: 20px auto 0px 75px;
+    height: 34px;
+    width: 34px;
+    gap: 25px;
+
+}
 
 
