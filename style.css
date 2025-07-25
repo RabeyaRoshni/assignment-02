@@ -48,6 +48,8 @@
     margin-right: 150px;
 }
 
+
+
 /* header section */
 /* navbar styles  */
 
@@ -70,6 +72,15 @@
 .item a{
     text-decoration: none;
 
+}
+
+.item a:hover{
+    background-color: #89ad1b;
+    cursor:pointer;
+    font-weight: bolder;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 /* main section  */
@@ -105,3 +116,79 @@
     width: 570px;
     height: 350px;
 }
+
+
+/* plant section  */
+
+.plants{
+    margin-top: 100px;
+}
+
+.plants span{
+    color: #E95A08;
+}
+
+.plant-text{
+    /* border: 1px solid white; */
+    text-align: center;
+    margin: 100px auto
+    width: 1140px;
+    height: 140px;
+}
+
+.plant-text h1{
+    font-size: 3.1rem;
+}
+
+.plant-text p{
+    font-size: 1.2rem;
+    width: 890px;
+    height: 54px;
+    margin: 0 auto;
+}
+
+.plants-grid{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    margin: 50px auto 10px auto;
+    text-align: center;
+    width: 1140px;
+    
+}
+
+.plants-grid img{
+    border-radius: 5px;
+}
+
+.flower-name{
+
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 3px;
+   
+
+}
+.flower-price{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.btn{
+    background-color: #E95A08;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 19px 80px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.btn:hover{
+    background-color: #89ad1b;
+    cursor:pointer;
+    font-weight: bolder;
+    
+}
+
